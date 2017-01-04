@@ -9,3 +9,7 @@ end
 get '/notification' do
   haml :notification
 end
+
+get '/featured' do
+  haml :featured
+end

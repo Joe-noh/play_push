@@ -1,0 +1,16 @@
+.item {
+  width: 200px;
+}
+
+.price {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.price .sale {
+  color: #f44;
+}
+
+.strike {
+  text-decoration: line-through;
+}
