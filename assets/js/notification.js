@@ -1,6 +1,6 @@
 
 function showNotification() {
-  var n = new Notification("いらっしゃい", {body: "セールやってます"});
+  var n = new Notification("いらっしゃい", {body: "セールやってます", icon: '/img/bag.jpg'});
   n.onclick = function() {
     n.close();
     open('/featured');
